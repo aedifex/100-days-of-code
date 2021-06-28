@@ -68,13 +68,13 @@
 
 ### Day 11: May 22, 2021
 
-**Today's Progress:**
+**Today's Progress:** Hacking on AWS stuff - setting up CLI.
 
 **Thoughts:**
 
 ### Day 12: May 23, 2021
 
-**Today's Progress:**
+**Today's Progress:** Spent time configuring my local development environment.
 
 **Thoughts:**
 
@@ -162,31 +162,25 @@
 
 **Thoughts:**
 
-### Day 27: June 6, 2021
+### Day 27: June 7, 2021
 
 **Today's Progress:**
 
 **Thoughts:**
 
-### Day 28: June 7, 2021
+### Day 28: June 8, 2021
 
 **Today's Progress:** Nomad. Dusted the cobwebs off of an old OSS project that provisions a local cluster of machines for testing Nomad, a delightful hashicorp tool.
 
 **Thoughts:** This is a fun project, definitely getting into the weeds technically, which is good!
 
-### Day 29: June 8, 2021
+### Day 29: June 9, 2021
 
 **Today's Progress:** Needed to rebuild the Vagrant environment, there were some errors in the Vagrantfile plus the VM images were outdated. Several odd errors were introduced into the environment which was vexing...
 
 **Thoughts:** Finally signed up for Stackoverflow...After all these years.
 
-### Day 30: June 9, 2021
-
-**Today's Progress:**
-
-**Thoughts:**
-
-### Day 31: June 10, 2021
+### Day 30: June 10, 2021
 
 **Today's Progress:**
 
@@ -194,35 +188,41 @@
 
 ### Day 31: June 11, 2021
 
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 32: June 12, 2021
+
 **Today's Progress:** Worked with Menno yesterday during "happy hour" at work. He suggested updating the box/vm in the Vagrantfile to something newer - e.g. bionic64. Alas, somehow, this did the trick! Which is somewhat shocking...given the "other" box worked in a different environment. Thankfully, we have a functional environment! Now it's time to layer on some additional tooling and automate the hell out the setup. My intention is to have a lightweight environment myself and others on my team can use to experiment with a dope technology (Nomad).
 
 **Thoughts:** How did the original VM work in one environment, with nearly identical configuration? Whereas updating the box changed this vexing issue?
 
-### Day 31: June 12, 2021
+### Day 33: June 13, 2021
 
 **Today's Progress:** Moar progress on the cluster. I'm using a combination of a Makefile with a simple shell script to setup and execute the config files needed for the agent, and rather than manually passing the private IP for the host, use a simple envar passed via Vagrant file.
 
 **Thoughts:**
 
-### Day 32: June 13, 2021
+### Day 34: June 14, 2021
 
 **Today's Progress:** Follow up on the Vagrant environment - finally was able to inject dynamic variables into the VM's from the Vagrantfile.
 
 **Thoughts:**
 
-### Day 33: June 14, 2021
+### Day 35: June 15, 2021
 
 **Today's Progress:** Got the cluster fully operational. Using a Makefile & script to automate parts of the setup. Ran a small sample job that leverages the docker provisioner. Really exciting stuff.
 
 **Thoughts:**
 
-### Day 33: June 15, 2021
+### Day 36: June 16, 2021
 
 **Today's Progress:** Running jobs in the Nomad env.
 
 **Thoughts:**
 
-### Day 34: June 16, 2021
+### Day 37: June 17, 2021
 
 **Today's Progress:** Tons. Used a system job to orchestrate and deploy the Lacework agent to one of the nodes.
 
@@ -293,9 +293,68 @@ https://www.nomadproject.io/docs/drivers/docker#volumes
 
 "allocation working directory"? Need to review this.
 
-### Day 35: June 17, 2021
+### Day 38: June 18, 2021
 
 **Today's Progress:**
 
 **Thoughts:**
 
+### Day 39: June 19, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 40: June 20, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 41: June 21, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 42: June 22, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 43: June 23, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 44: June 24, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 45: June 25, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 46: June 26, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 47: June 27, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
+
+### Day 48: June 28, 2021
+
+**Today's Progress:**
+
+**Thoughts:**
