@@ -355,6 +355,12 @@ https://www.nomadproject.io/docs/drivers/docker#volumes
 
 ### Day 48: June 28, 2021
 
-**Today's Progress:**
+**Today's Progress:** Nomad - working on operationalizing the environment.
+
+**Thoughts:**
+
+### Day 49: June 29, 2021
+
+**Today's Progress:** Progress on iTerminus, a quirky project that automates iterm backups.
 
 **Thoughts:**
