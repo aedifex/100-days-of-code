@@ -80,7 +80,7 @@
 
 ### Day 13: May 24, 2021
 
-**Today's Progress:**
+**Today's Progress:** Working on setting up a shift-left CI/CD pipeline.
 
 **Thoughts:**
 
@@ -362,5 +362,11 @@ https://www.nomadproject.io/docs/drivers/docker#volumes
 ### Day 49: June 29, 2021
 
 **Today's Progress:** Progress on iTerminus, a quirky project that automates iterm backups.
+
+**Thoughts:**
+
+### Day 50: June 30, 2021
+
+**Today's Progress:** Updated the Lacework orb, installed the lacework CLI, installed the LW scanner.
 
 **Thoughts:**
